@@ -1,6 +1,3 @@
-textarea:focus, input:focus{
-  outline: none;
-}
 #chat-circle {
   position: fixed;
   bottom: 40px;
@@ -138,4 +135,9 @@ button.botui-actions-buttons-button:not(:last-child) {
 }
 .botui-actions-text-input {
   border-bottom-width: 2px;
+}
+textarea:focus, input:focus{
+  outline: none;
+  border: 0;
+  border-bottom-color: #0c82a5;
 }
