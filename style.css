@@ -134,10 +134,10 @@ button.botui-actions-buttons-button:not(:last-child) {
   color: #FFF;
 }
 .botui-actions-text-input {
-  border-bottom-width: 2px;
-}
-textarea:focus, input:focus{
-  outline: none;
+  outline: 0;
   border: 0;
-  border-bottom-color: #0c82a5;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+}
+.botui-actions-text-input:focus{
+  border-bottom: 2px solid #0c82a5;
 }
