@@ -47,7 +47,7 @@
 }
 .chat-box-toggle img:hover {
   opacity: 1;
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 .chat-box-header {
   background-color: #c82020;
@@ -137,6 +137,7 @@ button.botui-actions-buttons-button:not(:last-child) {
 .botui-actions-text-input {
   outline: 0;
   border: 0;
+  width: 268px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.15);
 }
 .botui-actions-text-input:focus{
