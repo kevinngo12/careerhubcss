@@ -1,3 +1,6 @@
+textarea:focus, input:focus{
+  outline: none;
+}
 #chat-circle {
   position: fixed;
   bottom: 40px;
