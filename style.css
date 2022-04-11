@@ -144,7 +144,7 @@ button.botui-actions-buttons-button:not(:last-child) {
 }
 .botui-actions-text-input:focus{
   border: 0 !important;
-  border-bottom: 2px solid #0c82a5;
+  border-bottom: 2px solid #0c82a5 !important;
 }
 .overlay {
   position: fixed;
