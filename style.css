@@ -47,6 +47,7 @@
 }
 .chat-box-toggle img:hover {
   opacity: 1;
+  transform: scale(1.05);
 }
 .chat-box-header {
   background-color: #c82020;
