@@ -139,6 +139,9 @@ button.botui-actions-buttons-button:not(:last-child) {
   border-radius: 0 0 15px 15px;
   border-bottom: none;
 }
+.botui-actions-buttons .botui-actions-buttons-button:only-child {
+  border-radius: 15px;
+}
 .botui-message-content.human {
   background-color: #0c82a5;
   color: #FFF;
