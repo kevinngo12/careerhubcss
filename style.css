@@ -110,19 +110,19 @@ button.botui-actions-buttons-button:not(:last-child) {
   margin: 0;
 }
 .botui-actions-container {
-  padding-top: 0;
+  padding: 0 20px 20px 20px;
 }
 .botui-actions-buttons {
-  border-radius: 15px;
-  border: 2px solid rgba(0, 0, 0, 0.1);
-  overflow: hidden;
+  border-radius: 18px;
+  border: 2px solid rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
 }
 .botui-actions-buttons-button {
   font-size: 14px !important;
   font-weight: bold;
   border-radius: 0;
   background-color: #FFF;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.15);
   color: #333;
   padding: 10px 16px;
   box-shadow: none;
@@ -132,7 +132,11 @@ button.botui-actions-buttons-button:not(:last-child) {
   color: #FFF;
   background-color: #0c82a5;
 }
+.botui-actions-buttons:first-child {
+  border-radius: 15px 15px 0 0;
+}
 .botui-actions-buttons-button:last-child {
+  border-radius: 0 0 15px 15px;
   border-bottom: none;
 }
 .botui-message-content.human {
