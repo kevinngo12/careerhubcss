@@ -18,12 +18,26 @@
   padding: 8px 14px;
   cursor: pointer;
   white-space: nowrap;
-  overflow: hidden;
+  overflow: visible !important;
   transition: background-color 0.2s ease;
 }
 #chat-circle:hover {
   background-color: #e32222;
 }
+#chat-circle img {
+  position: absolute;
+  width: 52px;
+  top: 0;
+  left: 0;
+  margin-top: -24px;
+  margin-left: -2px;
+  transform: scale(1);
+  transform-origin: bottom;
+  transition: 0.4s;
+}
+.shrink-img img {
+  transform: scale(0);
+} 
 .chat-box {
   display:none;
   overflow: visible !important;
