@@ -132,7 +132,7 @@ button.botui-actions-buttons-button:not(:last-child) {
   color: #FFF;
   background-color: #0c82a5;
 }
-.botui-actions-buttons:first-child {
+.botui-actions-buttons-button:first-child {
   border-radius: 15px 15px 0 0;
 }
 .botui-actions-buttons-button:last-child {
