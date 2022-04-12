@@ -36,7 +36,7 @@
   transition: 0.25s;
 }
 .shrink-img img {
-  transform: scale(0);
+  transform: scale(0) !important;
 } 
 .chat-box {
   display:none;
