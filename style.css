@@ -1,3 +1,10 @@
+#bot-results {
+  margin: 6px 0;
+}
+#bot-results li {
+  margin-bottom: 5px;
+  font-weight: 700;
+}
 #chat-circle {
   position: fixed;
   bottom: 40px;
