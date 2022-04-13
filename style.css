@@ -33,8 +33,6 @@
   left: 0;
   margin-top: -27px;
   margin-left: 3px;
-  transform: scaleY(1);
-  transform-origin: bottom;
 }
 #chat-circle .helper-arm {
   position: absolute;
@@ -49,21 +47,12 @@
 }
 #chat-circle:hover .helper-arm {
   animation: wave-hand 0.9s infinite;
-  animation-timing-function: ease-in;
-}
-#chat-circle:hover .helper-body {
-  animation: breathing 1.5s infinite;
-  animation-timing-function: ease;
+  animation-timing-function: ease-in-out;
 }
 @keyframes wave-hand {
   0%    { transform: rotate(-6deg) skew(0deg) }
   50%   { transform: rotate(6deg) skew(-6deg); }
   100%  { transform: rotate(-6deg) skew(0deg) }
-}
-@keyframes breathing {
-  0%    { transform: scaleY(1) }
-  50%   { transform: scaleY(0.98); }
-  100%  { transform: scaleY(1) }
 }
 .helper-img-container {
   position: relative;
