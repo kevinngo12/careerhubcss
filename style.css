@@ -183,4 +183,5 @@ button.botui-actions-buttons-button:not(:last-child) {
   top: 0;
   left: 0;
   display: none;
+  z-index: 1;
 }
