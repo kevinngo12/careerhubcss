@@ -25,18 +25,40 @@
 #chat-circle:hover {
   background-color: #e32222;
 }
-#chat-circle img {
+#chat-circle .helper-body {
   position: absolute;
-  width: 52px;
+  width: 48px;
   top: 0;
   left: 0;
-  margin-top: -24px;
+  margin-top: -27px;
+  margin-left: 3px;
+}
+#chat-circle .helper-arm {
+  position: absolute;
+  width: 14px;
+  top: 0;
+  left: 0;
+  margin-top: -17px;
   margin-left: -2px;
+  transform: rotate(-6deg);
+  transform-origin: bottom;
+  z-index: 1;
+}
+#chat-circle:hover .helper-arm {
+  animation: wave-hand 0.4s infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes wave-hand {
+  0%    { transform: rotate(-6deg); }
+  50%   { transform: rotate(6deg); }
+  100%  { transform: rotate(-6deg); }
+}
+.helper-img-container {
   transform: scale(1);
   transform-origin: bottom;
   transition: 0.25s;
 }
-.shrink-img img {
+.shrink-img .helper-img-container {
   transform: scale(0) !important;
 } 
 .chat-box {
