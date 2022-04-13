@@ -41,7 +41,7 @@
   left: 0;
   margin-top: -17px;
   margin-left: -2px;
-  transform: rotate(-6deg), skew(0px);
+  transform: rotate(-6deg);
   transform-origin: bottom;
   z-index: 1;
 }
@@ -50,9 +50,9 @@
   animation-timing-function: ease-in-out;
 }
 @keyframes wave-hand {
-  0%    { transform: rotate(-6deg) skew(0deg) }
-  50%   { transform: rotate(6deg) skew(-6deg); }
-  100%  { transform: rotate(-6deg) skew(0deg) }
+  0%    { transform: rotate(-6deg) }
+  50%   { transform: rotate(6deg) }
+  100%  { transform: rotate(-6deg) }
 }
 .helper-img-container {
   position: relative;
